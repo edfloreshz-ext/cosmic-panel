@@ -801,10 +801,28 @@ dependencies = [
 [[package]]
 name = "cosmic-config"
 version = "0.1.0"
+source = "git+https://github.com/edfloreshz-ext/libcosmic?branch=master#b175e2f6004f383a94aa44aeadea25d50f81d974"
+dependencies = [
+ "atomicwrites",
+ "cosmic-config-derive 0.1.0 (git+https://github.com/edfloreshz-ext/libcosmic?branch=master)",
+ "dirs",
+ "iced_futures 0.14.0-dev (git+https://github.com/edfloreshz-ext/libcosmic?branch=master)",
+ "known-folders",
+ "notify",
+ "once_cell",
+ "ron",
+ "serde",
+ "tracing",
+ "xdg",
+]
+
+[[package]]
+name = "cosmic-config"
+version = "0.1.0"
 source = "git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974#b175e2f6004f383a94aa44aeadea25d50f81d974"
 dependencies = [
  "atomicwrites",
- "cosmic-config-derive",
+ "cosmic-config-derive 0.1.0 (git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974)",
  "dirs",
  "iced_futures 0.14.0-dev (git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974)",
  "known-folders",
@@ -814,6 +832,15 @@ dependencies = [
  "serde",
  "tracing",
  "xdg",
+]
+
+[[package]]
+name = "cosmic-config-derive"
+version = "0.1.0"
+source = "git+https://github.com/edfloreshz-ext/libcosmic?branch=master#b175e2f6004f383a94aa44aeadea25d50f81d974"
+dependencies = [
+ "quote",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -888,7 +915,7 @@ name = "cosmic-panel-config"
 version = "0.1.0"
 dependencies = [
  "anyhow",
- "cosmic-config",
+ "cosmic-config 0.1.0 (git+https://github.com/edfloreshz-ext/libcosmic?branch=master)",
  "ron",
  "serde",
  "smithay-client-toolkit",
@@ -940,7 +967,7 @@ version = "0.1.0"
 source = "git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974#b175e2f6004f383a94aa44aeadea25d50f81d974"
 dependencies = [
  "almost",
- "cosmic-config",
+ "cosmic-config 0.1.0 (git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974)",
  "csscolorparser",
  "dirs",
  "lazy_static",
@@ -957,7 +984,7 @@ version = "0.1.0"
 source = "git+https://github.com/pop-os/libcosmic#fde0516484750e0a7d2499e54964c5ed6ba8e16b"
 dependencies = [
  "almost",
- "cosmic-config",
+ "cosmic-config 0.1.0 (git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974)",
  "csscolorparser",
  "dirs",
  "lazy_static",
@@ -2013,6 +2040,28 @@ dependencies = [
 [[package]]
 name = "iced_core"
 version = "0.14.0-dev"
+source = "git+https://github.com/edfloreshz-ext/libcosmic?branch=master#b175e2f6004f383a94aa44aeadea25d50f81d974"
+dependencies = [
+ "bitflags 2.6.0",
+ "bytes",
+ "dnd",
+ "glam",
+ "log",
+ "mime",
+ "num-traits",
+ "once_cell",
+ "palette",
+ "raw-window-handle",
+ "rustc-hash 2.0.0",
+ "smol_str",
+ "thiserror",
+ "web-time",
+ "window_clipboard",
+]
+
+[[package]]
+name = "iced_core"
+version = "0.14.0-dev"
 source = "git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974#b175e2f6004f383a94aa44aeadea25d50f81d974"
 dependencies = [
  "bitflags 2.6.0",
@@ -2053,6 +2102,19 @@ dependencies = [
  "thiserror",
  "web-time",
  "window_clipboard",
+]
+
+[[package]]
+name = "iced_futures"
+version = "0.14.0-dev"
+source = "git+https://github.com/edfloreshz-ext/libcosmic?branch=master#b175e2f6004f383a94aa44aeadea25d50f81d974"
+dependencies = [
+ "futures",
+ "iced_core 0.14.0-dev (git+https://github.com/edfloreshz-ext/libcosmic?branch=master)",
+ "log",
+ "rustc-hash 2.0.0",
+ "wasm-bindgen-futures",
+ "wasm-timer",
 ]
 
 [[package]]
@@ -2532,7 +2594,7 @@ source = "git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94
 dependencies = [
  "apply",
  "chrono",
- "cosmic-config",
+ "cosmic-config 0.1.0 (git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974)",
  "cosmic-theme 0.1.0 (git+https://github.com/edfloreshz-ext/libcosmic?rev=b175e2f6004f383a94aa44aeadea25d50f81d974)",
  "css-color",
  "derive_setters",
