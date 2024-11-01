@@ -34,7 +34,7 @@ sctk = { package = "smithay-client-toolkit", git = "https://github.com/Smithay/c
 
 [patch."https://github.com/pop-os/libcosmic"]
 cosmic-config = { git = "https://github.com/edfloreshz-ext/libcosmic", rev = "b175e2f6004f383a94aa44aeadea25d50f81d974" }
-
+libcosmic = { git = "https://github.com/edfloreshz-ext/libcosmic", rev = "b175e2f6004f383a94aa44aeadea25d50f81d974" }
 
 # [patch."https://github.com/pop-os/xdg-shell-wrapper"]
 # xdg-shell-wrapper-config = { path = "../xdg-shell-wrapper/xdg-shell-wrapper-config" }
