@@ -22,4 +22,4 @@ sctk.workspace = true
 sctk.optional = true
 
 [patch."https://github.com/pop-os/libcosmic"]
-libcosmic = { git = "https://github.com/edfloreshz-ext/libcosmic", rev = "b175e2f6004f383a94aa44aeadea25d50f81d974" }
+cosmic-config = { git = "https://github.com/edfloreshz-ext/libcosmic", rev = "b175e2f6004f383a94aa44aeadea25d50f81d974" }
